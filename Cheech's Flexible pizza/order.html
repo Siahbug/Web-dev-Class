@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Cheech's Pizza</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+      <h1>Cheech's Pizza</h1>
+      <nav>
+        <ul>
+          <li><a href="menu.html">Home</a> </li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="order.html">Order</a></li>
+          <li><a href="https://www.google.com/search?q=pizza+place+near+me&rlz=1C1SQJL_enUS915US915&sxsrf=ALeKk01MumeMgArjhfgQN4cL4_KT234jDw%3A1626119503257&ei=T53sYIORD4W0tQb9sKaQBA&oq=pizza+place&gs_lcp=Cgdnd3Mtd2l6EAMYADIICAAQsQMQyQMyBQgAEJIDMgUIABCxAzICCAAyAggAMgIIADICCAAyAggAMgIIADIFCAAQsQM6BwgjEOoCECc6BAgjECc6CwguELEDEMcBEKMCOggILhDHARCjAjoHCAAQsQMQQzoQCC4QhwIQsQMQxwEQowIQFDoNCAAQhwIQsQMQgwEQFDoECC4QQzoHCC4QsQMQQzoECAAQQzoNCC4QsQMQxwEQowIQQzoNCAAQsQMQgwEQyQMQQzoKCAAQhwIQsQMQFDoOCC4QsQMQgwEQxwEQrwE6BQgAEMkDSgQIQRgAUK3yD1i7pxBgwLQQaAJwAngAgAHIAYgB2g2SAQYwLjEyLjGYAQCgAQGqAQdnd3Mtd2l6sAEKwAEB&sclient=gws-wiz">Our Location</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <div class="order-container">
+        <div class="order">
+          <h1>Enter your Selection</h1>
+          <form>
+            <input type="text" id="fname" name="fname" placeholder="First Name" required/>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required/>
+            <input type="tel" id="cell" name="cell" placeholder="1 (000-000-0000)" required/>
+            <select class="Pizza">
+              <option value="Cheese pizza">Cheese pizza</option>
+              <option value="Peperoni pizza">Peperoni pizza</option>
+              <option value="Meatlover's pizza">Meat pizza</option>
+              <option value="veggie pizza">Veggie pizza</option>
+              <option value="Supreme pizza">Supreme pizza</option>
+              <option value="the works pizza">The Works</option>
+            </select>
+            <input type="number" id="pizzanum" name="pizzanum" min="1" max="12"/>
+            <input type="submit" value="Place Order"/>
+
+          </form>
+        </div>
+        <div class="sidebarCustomer">
+          <h1>⭐⭐⭐⭐</h1>
+          <p>
+            The pizza came on time was still hot and freash and tasted amazing <br><i>Jeff Mcfarland</i><br><i>598648</i>
+          </p>
+        </div>
+        <div class="sidebar">
+          <h1>Contact Us</h1>
+          <address>
+            For any Questions or suppot<br>
+            Emmail us at: <a href="mailto:dinkaloo985@gmail.com">support587@gmail.com</a><br>
+            Call us at: <a href="tel:8168842832">(816) 884-2832</a>
+          </address>
+        </div>
+        <div>
+          <h1>Social Media</h1>
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
