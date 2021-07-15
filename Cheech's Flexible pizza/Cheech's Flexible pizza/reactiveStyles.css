@@ -1,0 +1,41 @@
+/*@media only  screen and (max-width:400px) {
+  .cols-container{
+  }
+  .cols{
+    width: 100%;
+  }
+  img{
+    padding: 5px;
+    width: 130px
+  }
+}*/
+@media screen and (max-width: 768px) {
+  .col1, .col2, .col3{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .cols-container2{
+    display: block;
+  }
+  .col1, .col2, .col3 {
+    width: 100%;
+  }
+  .sidebar-customer, .sidebar-contact{
+    width: 100%;
+  }
+  .container{
+    display: block;
+  }
+}
+/*@media screen and (max-width: 768px) {
+  .order{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .dad-container{
+    display: block;
+    width: 100%;
+  }
+}*/
